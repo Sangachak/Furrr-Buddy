@@ -1,0 +1,287 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+.hey{
+    font-size: 20px;
+    padding-left: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contactus{}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1px;
+    height:45px;
+    background-color:rgb(247, 202, 235);
+    position: sticky;
+    top:0; /*without this the navbar won't be sticky */
+}
+
+.leftnav{
+    padding-left: 15px;
+}
+
+.logo{
+    height:45px;
+    width:55px;
+    border-radius: 10px;
+    padding-top: 3.5px;
+}
+
+.rightnav{
+    padding-right: 25px;
+}
+
+.rightnav a{
+    text-decoration: none;
+    padding:15px;
+    font-family:fantasy;
+    font-weight: 570;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 20px;
+}
+
+.rightnav a:hover{
+    color: rgb(200, 19, 137);
+    transition: 0.5s;
+
+}
+
+h1{
+    font-size: 50px;
+    padding:10px;
+    color: rgb(222, 13, 159);
+    font-family: 'Alkatra', cursive;
+
+}
+
+h4{
+    font-size:20px;
+    
+    font-family: 'Alkatra', cursive;
+    
+}
+
+
+main{
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 229, 245);
+}
+
+.heroimage{
+    height:600px;
+    width: 880px;
+    border-radius: 50px;
+    padding-right:15px ;
+    
+}
+
+.herotext{
+    text-align: center;
+}
+
+.dynamic{
+    border-right:solid 2px rgb(27, 162, 17) ;
+    white-space: nowrap;
+    overflow:hidden;
+    font-size: 32px;
+    color: rgb(27, 162, 17);
+    padding-left: 12px;
+    font-family: 'Alkatra', cursive;
+    
+    
+    
+}
+.dynamic{animation: animated-text 3s steps(100) 1s 1 normal both,
+    animated-cursor 600ms steps(100) infinite;}
+
+@keyframes animated-text{
+    from{width:0;} to {width:280px;}
+}
+
+@keyframes animated-cursor{
+    from{border-right-color:rgb(27, 162, 17);}to{border-right-color:transparent;}
+}
+
+#hire{
+    
+ padding: 10px;
+}
+
+
+
+/* about sec begins */
+
+
+#about{
+    padding:30px;
+    padding-top: 23px;
+    border-top: solid 2px rgb(245, 194, 230);
+}
+
+.first{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+
+}
+
+.text{
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutim{
+    height:220px;
+    width:320px;
+    border-radius: 30px;
+    border: 1px solid palevioletred;
+    box-shadow: 5px 5px 10px 1px pink;
+        
+}
+
+/* service sec begins */
+
+
+
+
+
+.servim{
+    padding: 10px;
+    height:290px;
+    width: 270px;
+}
+
+
+
+.card {
+    box-shadow:0px 20px 40px 0px rosybrown;
+    transition: 0.3s;
+    height:530px;
+    width: 360px;
+    align-items: center;
+    
+    border-radius: 40px;
+    
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 20px 35px 0 rgb(152, 39, 152);
+    border: 15px solid transparent;
+    opacity: 90%;
+  }
+  
+  .container {
+    padding:2px;
+  }
+
+  .card button{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #services{
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: center;
+    padding-top: 65px;
+    border-top: solid 2px rgb(245, 194, 230);
+height:600px;
+padding-left: 20px;
+padding-right: 20px;
+  }
+
+  #more{
+    display: none;
+  }
+
+  #more2{
+    display:none;
+  }
+
+  #more3{
+    display:none;
+  }
+
+  /* contact part begins */
+  
+  #contact{
+    /* padding: 80px;
+    padding-left: 540px; */
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:600px;
+    border-top: 2px solid rgb(245, 194, 230);
+    
+
+  }
+
+  .form{
+    border: 1px solid black;
+    height:440px;
+    width:350px;
+    text-align: center;
+    padding-top: 14px;
+    box-shadow: 10px 10px 20px 10px yellowgreen;
+    
+    
+  }
+
+  .form:hover{
+    box-shadow: 10 40px 35px 10px;
+    border: 25px solid transparent;
+    opacity: 90%;
+
+  }
+
+  
+
+  .form input{
+    padding:10px;
+    text-align: center; 
+    border-radius: 10px;
+  
+  }
+
+  .form textarea{
+    padding:20px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 20px;
+
+  }
+
+  .form button{
+    height:35px;
+    width:100px;
+    border-radius: 10px solid ;
+  }
+
+
+
+
